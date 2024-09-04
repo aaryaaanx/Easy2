@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="logo">
+          <h2>Siohoma</h2>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Statistics</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Product</a></li>
+            <li>
+              <a href="#">Messages</a><span class="message-count">13</span>
+            </li>
+            <li><a href="#">Transactions</a></li>
+          </ul>
+        </nav>
+        <div class="settings">
+          <a href="#">Settings</a>
+          <a href="#">Security</a>
+        </div>
+        <div class="user">
+          <img src="profile-pic.png" alt="Profile Picture" />
+          <p>Fandaww Punx</p>
+          <small>fandaww8@gmail.com</small>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Header -->
+        <header class="header">
+          <h1>Sales Admin</h1>
+          <div class="search-bar">
+            <input type="text" placeholder="Search anything in Siohoma..." />
+          </div>
+          <div class="actions">
+            <button class="add-product-btn">Add new product</button>
+          </div>
+        </header>
+
+        <!-- Dashboard Content -->
+        <div class="dashboard">
+          <!-- Top Row -->
+          <div class="top-row">
+            <div class="card update">
+              <h3>Update</h3>
+              <p>Sales revenue increased 40% in 1 week</p>
+              <a href="#">See Statistics</a>
+            </div>
+            <div class="card net-income">
+              <h3>Net Income</h3>
+              <p>$193.000</p>
+              <p class="growth">+35% from last month</p>
+            </div>
+            <div class="card total-return">
+              <h3>Total Return</h3>
+              <p>$32.000</p>
+              <p class="decrease">-24% from last month</p>
+            </div>
+          </div>
+
+          <!-- Middle Row -->
+          <div class="middle-row">
+            <div class="card transaction">
+              <h3>Transaction</h3>
+              <ul>
+                <li>Premium T-Shirt - Completed</li>
+                <li>Playstation 5 - Completed</li>
+                <li>Hoodie Gombrong - Pending</li>
+                <li>iPhone 15 Pro Max - Completed</li>
+                <li>Lotse - Completed</li>
+                <li>Starbucks - Completed</li>
+                <li>Tinek Detstar T-Shirt - Pending</li>
+              </ul>
+            </div>
+            <div class="card revenue">
+              <h3>Revenue</h3>
+              <!-- Chart would go here -->
+            </div>
+            <div class="card sales-report">
+              <h3>Sales Report</h3>
+              <!-- Chart would go here -->
+            </div>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="bottom-row">
+            <div class="card performance">
+              <h3>Total View Performance</h3>
+              <!-- Pie chart would go here -->
+            </div>
+            <div class="card upgrade">
+              <h3>Level up your sales managing to the next level.</h3>
+              <button class="upgrade-btn">Update to Siohoma+</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
